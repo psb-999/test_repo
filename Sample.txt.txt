@@ -1,0 +1,580 @@
+2 git version
+
+   3 git config --global user.name "psb-999"
+
+   4 git config --global user.email "saibhargav.p47@gmail.com"
+
+   5 md hello-from-git
+
+   6 cd .\hello-from-git\
+
+   7 git init
+
+   8 ls
+
+   9 git status
+
+  10 git add .
+
+  11 git status
+
+  12 git log
+
+  13 git log
+
+  14 git commit  -m
+
+  15 pwd
+
+  16 git log
+
+  17 git commit  -m "first commit"
+
+  18 git log
+
+  19 git status
+
+  20 ls
+
+  21 git status
+
+  22 git add .\second.txt
+
+  23 git status
+
+  24 git commit  -m " new file added"
+
+  25 git status
+
+  26 git log
+
+  27 git branch -M main
+
+  28 git remote add origin
+
+  29 git remote add origin https://github.com/vinaydevopss/vinay-devops.git
+
+  30 git push -u origin main
+
+  31 git push -u origin main
+
+  32 git remote add origin https://github.com/vinaydevopss/vinay-devops.git
+
+  33 git push -u origin main
+
+  34 git fetch origin
+
+  35 git merge origin/main
+
+  36 git merge main
+
+  37 git push -u origin main
+
+  38 git push --force  origin main
+
+  39 ls
+
+  40 git status
+
+  41 git add hello
+
+  42 git add hello.txt
+
+  43 git status
+
+  44 git commit -m " hello file added"
+
+  45 git status
+
+  46 git log
+
+  47 git push --force  origin main
+
+  48 git pull -u origin main
+
+  49 git pull
+
+  50 git pull origin master
+
+  51 git branch --set-upstream-to=origin/<branch> main
+
+  52 git pull origin main
+
+  53 history
+
+  54 git status
+
+  55 git branch firstbranch
+
+  56 git checkout firstbranch
+
+  57 ls
+
+  58 git status
+
+  59 git checkout firstbranch
+
+  60 git checkout main
+
+  61 git checkout firstbranch
+
+  62 git status
+
+  63 ls
+
+  64 git status
+
+  65 git add .
+
+  66 git commit -m "added new file in firstbranch"
+
+  67 git status
+
+  68 git log
+
+  69 ls
+
+  70 git status
+
+  71 git checkout main
+
+  72 ls
+
+  73 git status
+
+  74 ls
+
+  75 git checkout firstbranch
+
+  76 ls
+
+  77 git status
+
+  78 git checkout main
+
+  79 git merge firstbranch
+
+  80 ls
+
+  81 git status
+
+  82 git checkout firstbranch
+
+  83 git branch secondbranch
+
+  84 ls
+
+  85 git status
+
+  86 git add .
+
+  87 git status
+
+  88 git commit -m " added new file in first branch"
+
+  89 git checkout main
+
+  90 ls
+
+  91 git status
+
+  92 git checkout firstbranch
+
+  93 ls
+
+  94 git checkout secondbranch
+
+  95 ls
+
+  96 git checkout main
+
+  97 git merge secondbranch
+
+  98 git checkout firstbranch
+
+  99 ls
+
+100 git merge secondbranch
+
+101 ls
+
+102 git checkout main
+
+103 git push --force  origin main
+
+104 git status
+
+105 git checkout firstbranch
+
+106 git push --force  origin main
+
+107 git checkout secondbranch
+
+108 git push --force  origin main
+
+109 git merge main
+
+110 git push --force  origin main
+
+111 ls
+
+112 ls
+
+113 git checkout firstbranch
+
+114 ls
+
+115 git merge main
+
+116 git rebase main
+
+117  git status
+
+118 git checkout main
+
+119 git rebase main
+
+120 git checkout firstbranch
+
+121 ls
+
+122 git checkout main
+
+123 ls
+
+124 git status
+
+125 git checkout firstbrach
+
+126 git checkout firstbranch
+
+127 git add .
+
+128 git commit  -m "rebase file added"
+
+129 ls
+
+130 git status
+
+131 git log
+
+132 git rebase main
+
+133 git checkout main
+
+134 ls
+
+135 git rebase firstbranch
+
+136 ls
+
+137 git status
+
+138 history
+
+139 git push --force  origin main
+
+140 git branch
+
+141   2 git version
+
+142    3 git config --global user.name "Palika Vinay"
+
+143    4 git config --global user.email "pvb.1916@gmail.com"
+
+144    5 md hello-from-git
+
+145    6 cd .\hello-from-git\
+
+146    7 git init
+
+147    8 ls
+
+148    9 git status
+
+149   10 git add .
+
+150   11 git status
+
+151   12 git log
+
+152   13 git log
+
+153   14 git commit  -m
+
+154   15 pwd
+
+155   16 git log
+
+156   17 git commit  -m "first commit"
+
+157   18 git log
+
+158   19 git status
+
+159   20 ls
+
+160   21 git status
+
+161   22 git add .\second.txt
+
+162   23 git status
+
+163   24 git commit  -m " new file added"
+
+164   25 git status
+
+165   26 git log
+
+166   27 git branch -M main
+
+167   28 git remote add origin
+
+168   29 git remote add origin https://github.com/vinaydevopss/vinay-devops.git
+
+169   30 git push -u origin main
+
+170   31 git push -u origin main
+
+171   32 git remote add origin https://github.com/vinaydevopss/vinay-devops.git
+
+172   33 git push -u origin main
+
+173   34 git fetch origin
+
+174   35 git merge origin/main
+
+175   36 git merge main
+
+176   37 git push -u origin main
+
+177   38 git push --force  origin main
+
+178   39 ls
+
+179   40 git status
+
+180   41 git add hello
+
+181   42 git add hello.txt
+
+182   43 git status
+
+183   44 git commit -m " hello file added"
+
+184   45 git status
+
+185   46 git log
+
+186   47 git push --force  origin main
+
+187   48 git pull -u origin main
+
+188   49 git pull
+
+189   50 git pull origin master
+
+190   51 git branch --set-upstream-to=origin/<branch> main
+
+191   52 git pull origin main
+
+192   53 history
+
+193   54 git status
+
+194   55 git branch firstbranch
+
+195   56 git checkout firstbranch
+
+196   57 ls
+
+197   58 git status
+
+198   59 git checkout firstbranch
+
+199   60 git checkout main
+
+200   61 git checkout firstbranch
+
+201   62 git status
+
+202   63 ls
+
+203   64 git status
+
+204   65 git add .
+
+205   66 git commit -m "added new file in firstbranch"
+
+206   67 git status
+
+207   68 git log
+
+208   69 ls
+
+209   70 git status
+
+210   71 git checkout main
+
+211   72 ls
+
+212   73 git status
+
+213   74 ls
+
+214   75 git checkout firstbranch
+
+215   76 ls
+
+216   77 git status
+
+217   78 git checkout main
+
+218   79 git merge firstbranch
+
+219   80 ls
+
+220   81 git status
+
+221   82 git checkout firstbranch
+
+222   83 git branch secondbranch
+
+223   84 ls
+
+224   85 git status
+
+225   86 git add .
+
+226   87 git status
+
+227   88 git commit -m " added new file in first branch"
+
+228   89 git checkout main
+
+229   90 ls
+
+230   91 git status
+
+231   92 git checkout firstbranch
+
+232   93 ls
+
+233   94 git checkout secondbranch
+
+234   95 ls
+
+235   96 git checkout main
+
+236   97 git merge secondbranch
+
+237   98 git checkout firstbranch
+
+238   99 ls
+
+239  100 git merge secondbranch
+
+240  101 ls
+
+241  102 git checkout main
+
+242  103 git push --force  origin main
+
+243  104 git status
+
+244  105 git checkout firstbranch
+
+245  106 git push --force  origin main
+
+246  107 git checkout secondbranch
+
+247  108 git push --force  origin main
+
+248  109 git merge main
+
+249  110 git push --force  origin main
+
+250  111 ls
+
+251  112 ls
+
+252  113 git checkout firstbranch
+
+253  114 ls
+
+254  115 git merge main
+
+255  116 git rebase main
+
+256  117  git status
+
+257  118 git checkout main
+
+258  119 git rebase main
+
+259  120 git checkout firstbranch
+
+260  121 ls
+
+261  122 git checkout main
+
+262  123 ls
+
+263  124 git status
+
+264  125 git checkout firstbrach
+
+265  126 git checkout firstbranch
+
+266  127 git add .
+
+267  128 git commit  -m "rebase file added"
+
+268  129 ls
+
+269  130 git status
+
+270  131 git log
+
+271  132 git rebase main
+
+272  133 git checkout main
+
+273  134 ls
+
+274  135 git rebase firstbranch
+
+275  136 ls
+
+276 git remote -v
+
+277 clear
+
+278 git diff
+
+279 git diff .\file1.txt.txt
+
+280 git show
+
+281 hisstory
+
+282 history
+
+283 git firstbranch
+
+284 REM Create and switch to a new branch named 'firstbranch'
+
+285 git checkout -b firstbranch
+
+286 REM Alternatively, you can use the newer command
+
+287 git checkout -b firstbranch
+
+288 git switch -c firstbranch
+
+289 git status
+
+290 git checkout firstbranch
+GitHub - vinaydevopss/vinay-devops: vinay-devops
+vinay-devops. Contribute to vinaydevopss/vinay-devops development by creating an account on GitHub.
+ 
